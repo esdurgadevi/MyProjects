@@ -1,0 +1,28 @@
+
+<style>
+    
+</style>
+<input id="01">
+<button id="02" onclick="add()">Add</button>
+<ul id="03">
+    <li>Hello
+        <button id="03" onclick="d(event)">Delete</button>
+    </li>
+</ul>
+
+<script>
+    var ul=document.getElementById("03")
+    var i=document.getElementById("01")
+    function add()
+    {
+        var li=document.createElement("li")
+        li.innerHTML=i.value + "<button onclick='d(event)'>Delete</button>"
+        ul.append(li)
+    }
+    function d(event)
+    {
+        event.target.parentElement.remove()
+    }
+</script>
+
+

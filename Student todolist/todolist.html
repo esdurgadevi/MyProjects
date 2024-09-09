@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>STUDENT FORM</h1>
+    </center>
+    <div class="first">
+    <center>
+        <form>
+            <table border="1px">
+                <tr>
+                    <td>Name</td><td><input id="name"></td>
+                </tr>
+                <tr>
+                    <td>Age</td><td><input id="age"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td>
+                        <select  id="course">
+                            <option>JavaScript</option>
+                            <option>Python</option>
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>Java</option>
+                            <option>FrontEnd</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="email">
+                </tr>
+                <tr>
+                    <td>
+                        <button id="save">SAVE</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    </div>
+  <center>
+        <br>
+        <br>
+        <table border="1px" id="result" class="answer">
+            <tr>
+                <td class="one"><b>NAME</b></td>
+                <td class="one"><b>AGE</b></td>
+                <td class="one"><b>COURSE</b></td>
+                <td class="one"><b>GENDER</b></td>
+                <td class="one"><b>EMAIL</b></td>
+                <td class="one">
+                    <b>ACTION</b>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
