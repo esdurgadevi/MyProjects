@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(webdev2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    padding:20px;
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.icon h2{
+    color: #ff7200;
+    font-size:40px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    float:left;
+  }
+  .menu{
+    position: absolute;
+    left:300px;
+    width: 400px;
+    height: 70px;
+  }
+  ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 23px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+}
+ul li a:hover{
+    color:#ff7200;
+}
+.search input,button{
+    padding:10px;
+}
+.search{
+    position: absolute;
+    right:40px;
+    top:30px;
+}
+input{
+    border-radius: 10px;
+    border-style: none;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    background: transparent;
+}
+.inp:focus{
+    outline:none;
+}
+input::placeholder{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
+button{
+    border-radius: 10px;
+    background-color: #ff7200;
+    color: white;
+    border-style: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+.content h3{
+    margin-left: 10px;
+    color:dimgrey;
+    letter-spacing: 1.2px;
+}
+.content h1{
+    color:#ff7200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.content p{
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin:10px;
+}
+.content{
+    width:43%;
+    color:white;
+    line-height: 25px;
+    font-family:sans-serif;
+    margin:auto;
+    height: auto;
+    position: absolute;
+    left:50px;
+    top:160px;
+}
+.now{
+    width:auto;
+    position:absolute;
+    left:12px;
+}
+.intro a{
+    text-decoration: none;
+    color:white;
+}
+.login h3{
+    background-color: white;
+    color:#ff7200;
+    padding:5px;
+    margin:5px;
+    border-radius: 10px;
+}
+.login{
+    position:absolute;
+    left:750px;
+    top:-25px;
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    width:250px;
+    height:380px;
+    text-align: center;
+    padding:20px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding:25px;
+
+}
+.login button{
+    border-radius: 0px;
+    margin-top:15px;
+    border-radius: 10px;
+}
+.login button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top:none;
+    border-right: none;
+    border-left:none;
+    border-radius: 0px;
+    margin:5px;
+    font-size:15px;
+    letter-spacing: 1px;
+    color:white;
+}
+.login input::placeholder{
+    color:dimgray;
+}
+.login input:focus{
+    outline:none;
+}
+.login button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.sign a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.sign{
+    letter-spacing: 0.5px;
+}
+.about{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(webdev5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.about h1{
+    color:#ff7200;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 800px;
+    padding:10px;
+    margin-left: 25px;
+}
+.aboutbox{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.aboutmenu{
+    background-color:black;
+    width:300px;
+    height:400px;
+    opacity:0.8;
+    text-align: center;
+    position: relative;
+    top:80px;
+    color:darkgrey;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+.aboutmenu h2{
+    color: #ff7200;
+    padding:10px;
+}
+.aboutmenu p{
+    line-height:25px;
+    letter-spacing: 1.2px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutmenu:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    box-shadow: 0 0 15px #3C0D0D;
+}
+.service h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.service{
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.service h1{
+    color:#ff7200;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 800px;
+    margin-left: 30px;
+    margin-top:44px;
+}
+.servicemenu h2{
+    color: #ff7200;
+    margin-left:15px;
+    margin-top: 15px;
+}
+.servicecon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.servicemenu{
+    background-color:black;
+    width:500px;
+    height:440px;
+    opacity:0.8;
+    position: relative;
+    top:70px;
+    color:darkgrey;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    line-height: 30px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.servicemenu p{
+    margin:15px;
+}
+.servicemenu ul{
+    display: flex;
+    flex-direction: column;
+}
+.servicemenu:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    box-shadow: 0 0 15px #3C0D0D;
+}
+.contact{
+    background-color: black;
+    padding:25px;
+    text-align: center;
+    color:white;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.contactmenu h2{
+    color: #ff7200;
+}
+.contact a{
+    text-decoration: none;
+    color:darkturquoise;
+}
+.last{
+    color: darkgrey;
+}
