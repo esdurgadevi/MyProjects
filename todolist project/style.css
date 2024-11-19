@@ -1,0 +1,57 @@
+html,body{
+    background: color #f5e8ba;
+    font-family: 'Poppins',sans-serif;
+    margin:0;
+}
+#todo{
+    height:500px;
+    width: 400px;
+    background-color: teal;
+    margin-top: 40px;
+    border-radius:5px;
+}
+#list1{
+    padding:10px;
+}
+input{
+    height:30px;
+    width:250px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+button:hover{
+    height:40px;
+    animation:grow 1500ms forwards;
+}
+@keyframes grow{
+    from{
+        background-color: #ffe8ba;
+        font-size:5px;
+    }
+    to{
+        background-color: aqua;
+    }
+}
+button{
+    height: 35px;
+    width:100px;
+    background-color: #ffe8ba;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    color:#102770;
+}
+h2,#list2{
+    font-family: 'poppins',sans-serif;
+    color:#ffe8ba;
+}
+input:active{
+    border:none;
+}
+#list2:hover{
+    cursor:pointer;
+}
+
+
+
